@@ -8,44 +8,41 @@ export default class Skills extends Component {
                 <div className="container">
                     <div className="section-heading">
                         <h1>Skills</h1>
-                        <h5>that include</h5>
                     </div>
                     <div className="my-skills">
                         <div className="skill">
                             <div className="icon-container">
-                            <i class="fa fa-object-ungroup"></i>
+                            <i class="fab fa-react"></i>
                             </div>
-                            <h1>front End Languages</h1>
-                            <p>Html, CSS, JavaScript and Styled-Components</p>
+                            <h1>React</h1>
                         </div>
                         <div className="skill">
                             <div className="icon-container">
-                                <i class="fa fa-code"></i>
+                            <i class="fab fa-js-square"></i>
                             </div>
-                            <h1>Frameworks</h1>
-                            <p>React JS, Express JS and Boostrtrap</p>
+                            <h1>JavaScript</h1>
                         </div>
                         <div className="skill">
                             <div className="icon-container">
-                            <i class="fa fa-node"></i>
+                            <i class="fas fa-code"></i>
                             </div>
-                            <h1>Server side Languages</h1>
-                            <p>Node js</p>
+                            <h1>HTML</h1>
                         </div>
                         <div className="skill">
                             <div className="icon-container">
-                                <i class="fa fa-code"></i>
+                            <i class="fab fa-css3-alt"></i>
                             </div>
-                            <h1>Version control</h1>
-                            <p>gitHub</p>
+                            <h1>CSS</h1>
                         </div>
                         <div className="skill">
                             <div className="icon-container">
-                                <i class="fa fa-code"></i>
+                                <i class="fab fa-github"></i>
                             </div>
-                            <h1>Tools</h1>
-                            <p>Visual Studio</p>
+                            <h1>GitHub</h1>
                         </div>
+                    </div>
+                    <div className="section-footer">
+                        <h5>Also include: Bootstrap, nodeJS, Express, Visual Studio and Styled-Components</h5>
                     </div>
                 </div>
             </section>

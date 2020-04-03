@@ -25,12 +25,12 @@
     border: 3px solid #eeee;
     transform: rotate(45deg);
     display: flex;
-    background-color: rosybrown;
+    background-color: #eeee;
     border-radius: 50%;
 }
 .icon-container i{
     margin: auto;
-    color: #fff838;
+    color: black;
     font-size: 3rem;
     transform: rotate(-45deg);
 }
@@ -76,7 +76,11 @@
     border-radius: 100%;
 }
 
-.section-heading h5{
+.section-footer{
+    text-align: center;
+    margin-top: 0;
+}
+.section-footer h5{
     font-size: 2rem;
     font-weight: 300;
     
