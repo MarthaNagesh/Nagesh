@@ -1,0 +1,109 @@
+a{
+    text-decoration: none;
+    color: #eee;
+}
+header{
+    width: 100%;
+    height: 100vh;
+}
+.top-nav{
+    width: 100%;
+    height:100vh;
+    top: -100vh;
+    z-index: 50;
+    position: fixed;
+    background-color: #16162d;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    transition: all 1s cubic-bezier(1,0,0,1);
+}
+.nav-list{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    margin: 0 2rem;
+}
+.nav-link{
+    font-family: cursive;
+    font-size: 3rem;
+    padding: 1rem;
+}
+.nav-link:hover,
+.nav-link:focus{
+   background: linear-gradient(to right,#ffe038, rgb(252, 61, 61));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.top-nav.open{
+    top: 0;
+    border-radius: initial;
+}
+.menu-toggler{
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+    width: 5rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 1000;
+    transition: transform .3s ease-out;
+}
+.menu-toggler.open{
+    transform: rotate(-45deg);
+}
+.bar{
+    background: linear-gradient(to right,#ffe038, rgb(252, 61, 61));
+    width: 100%;
+    height: 4px;
+    border-radius: 1rem;   
+}
+.bar.half{
+    width: 50%;
+}
+.bar.start{
+    transform-origin: right;
+    transition: transform .3s cubic-bezier(0.54, -0.81, 0.57, 0.57);
+}
+.open.bar.start{
+    transform: rotate(-450deg) translateX(.8rem);
+}
+.bar.end{
+    align-self: flex-end;
+    transform-origin: left;
+    transition: transform .3s cubic-bezier(0.54, -0.81, 0.57, 0.57);
+}
+.open.bar.end{
+    transform: rotate(-450deg) translateX(-.8rem);
+}
+.landing-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+.landing-text h1{
+    font-size: 10rem;
+    font-family: 'Concert One', cursive;
+    background: linear-gradient(to right,#ffe038, rgb(252, 61, 61));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   padding: 1rem;
+   user-select: none;
+}
+.landing-text h5{
+    font-size: 3rem;
+    color: #eee;
+}
