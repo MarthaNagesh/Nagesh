@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/nagesh/static/css/main.5eb6b148.chunk.css",
-    "main.js": "/nagesh/static/js/main.7fcdf581.chunk.js",
-    "main.js.map": "/nagesh/static/js/main.7fcdf581.chunk.js.map",
+    "main.css": "/nagesh/static/css/main.dffe58d7.chunk.css",
+    "main.js": "/nagesh/static/js/main.8fdba8bf.chunk.js",
+    "main.js.map": "/nagesh/static/js/main.8fdba8bf.chunk.js.map",
     "runtime-main.js": "/nagesh/static/js/runtime-main.1b9dbcef.js",
     "runtime-main.js.map": "/nagesh/static/js/runtime-main.1b9dbcef.js.map",
     "static/js/2.1d58171e.chunk.js": "/nagesh/static/js/2.1d58171e.chunk.js",
     "static/js/2.1d58171e.chunk.js.map": "/nagesh/static/js/2.1d58171e.chunk.js.map",
     "index.html": "/nagesh/index.html",
-    "precache-manifest.91bc65ad7398d1c6ef34a61d76024a95.js": "/nagesh/precache-manifest.91bc65ad7398d1c6ef34a61d76024a95.js",
+    "precache-manifest.3cae2f24604cb0a946fb7208c734bf7b.js": "/nagesh/precache-manifest.3cae2f24604cb0a946fb7208c734bf7b.js",
     "service-worker.js": "/nagesh/service-worker.js",
-    "static/css/main.5eb6b148.chunk.css.map": "/nagesh/static/css/main.5eb6b148.chunk.css.map",
+    "static/css/main.dffe58d7.chunk.css.map": "/nagesh/static/css/main.dffe58d7.chunk.css.map",
     "static/js/2.1d58171e.chunk.js.LICENSE.txt": "/nagesh/static/js/2.1d58171e.chunk.js.LICENSE.txt",
     "static/media/about.jpg": "/nagesh/static/media/about.8a93a8a4.jpg",
     "static/media/index.css": "/nagesh/static/media/background1.6f3d9fa6.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.1b9dbcef.js",
     "static/js/2.1d58171e.chunk.js",
-    "static/css/main.5eb6b148.chunk.css",
-    "static/js/main.7fcdf581.chunk.js"
+    "static/css/main.dffe58d7.chunk.css",
+    "static/js/main.8fdba8bf.chunk.js"
   ]
 }
