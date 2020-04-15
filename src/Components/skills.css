@@ -46,11 +46,11 @@
 }
 .section-heading{
     text-align: center;
-    margin-top: 10rem;
+    margin: 10rem 0;
 }
 .section-heading h1{
     font-size: 3.5rem;
-    opacity: .3;
+    opacity: .9;
     text-transform: uppercase;
     font-weight: 300;
     position: relative;

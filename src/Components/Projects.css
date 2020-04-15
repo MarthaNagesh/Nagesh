@@ -1,0 +1,47 @@
+.projects-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.projects-item:last-child{
+    margin-bottom: 0;
+}
+.projects-img{
+    flex: 1;
+}
+.projects-img img{
+    width: 40rem;
+}
+.projects-description{
+    flex: 1;
+}
+.projects-description h1{
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 1rem 0;
+}
+.has-margin-right{
+    margin-right: 5rem;
+}
+.projects-description .cta{
+    display: inline-block;
+    margin: 2.5rem 2rem 0 0;
+    border: 1rem solid #cccc;
+    border-radius: .7rem;
+    background-color: #ccc;
+    font-size: 2rem;
+    /* font-weight: 500; */
+    
+    color: #3683ff;
+    
+    transition: all .5s ease-out;
+}
+.projects-description .cta:hover{
+    color: #ccc;
+    background-color: #3683ff;
+    border: 1rem solid #3683ff;
+    
+    
+    
+}

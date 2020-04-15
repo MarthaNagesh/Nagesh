@@ -42,7 +42,7 @@ export default class Skills extends Component {
                         </div>
                     </div>
                     <div className="section-footer">
-                        <h5>Also include: Bootstrap, nodeJS, Express, Visual Studio and Styled-Components</h5>
+                        <h5>Also include: <strong>Bootstrap, nodeJS, Express, Visual Studio and Styled-Components</strong></h5>
                     </div>
                 </div>
             </section>

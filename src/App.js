@@ -3,7 +3,9 @@ import './App.css';
 import Homepage from './Components/Homepage';
 import About from './Components/About';
 import Skills from './Components/Skills';
-
+import Projects from './Components/Projects';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 
 export default class App extends Component {
@@ -15,7 +17,7 @@ export default class App extends Component {
     return {Open: !prevState.Open};
   });
  };
- contentCloser = ()=>{
+ contentCloser = (e)=>{
    this.setState({Open: false});
  };
   render() {
@@ -24,6 +26,9 @@ export default class App extends Component {
         <Homepage show={this.state.Open} changeClass={this.contentClickHandler}/>
         <About />
         <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
       </div>
     )
   }

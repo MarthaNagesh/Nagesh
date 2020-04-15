@@ -1,0 +1,26 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    font-size: 1.5rem;
+}
+input, textarea{
+    padding: 1rem;
+    margin-bottom: 5px;
+    border: none;
+    outline-color: #fd57;
+}
+input[type="submit"]{
+    width: 15rem;
+    background-color: #ccc;
+    font-size: 2rem;
+    border-radius: .7rem;
+    cursor: pointer;
+    transition: all .5s ease-out;
+    color: #3683ff;
+}
+input[type="submit"]:hover{
+    color: #ccc;
+    background-color: #3683ff;
+}

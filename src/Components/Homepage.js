@@ -21,7 +21,7 @@ const Homepage = props =>{
                 <div className={endbarClasses.join(' ')}></div>
             </div>
         <nav className={navClasses.join(' ')}>
-            <ul className="nav-list">
+            <ul className="nav-list" onClick = {props.changeClass}>
                 <li><a href="#" className="nav-link">about</a></li> 
                 <li><a href="#" className="nav-link">skills</a></li>
                 <li><a href="#" className="nav-link">projects</a></li>
