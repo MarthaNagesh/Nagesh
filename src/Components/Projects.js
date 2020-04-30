@@ -15,10 +15,10 @@ const Projects = () => {
                     <h1>Projects</h1>
                 </div>
                 <div className="projects-item">
-                    <div data-aos="flip-left" className="projects-img has-margin-right">
+                    <div data-aos="fade-up" className="projects-img has-margin-right">
                         <img src={img} ></img>
                     </div>
-                    <div data-aos="fade-left" className="projects-description">
+                    <div data-aos="fade-down" className="projects-description">
                         <h1>Shopping-Cart</h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -30,7 +30,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="projects-item">
-                <div data-aos="fade-left" className="projects-description has-margin-right">
+                <div data-aos="fade-down"className="projects-description has-margin-right">
                         <h1>Shopping-Cart</h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -40,16 +40,16 @@ const Projects = () => {
                         <a href="#" className="cta">View code</a>
                         <a href="#" className="cta">View site</a>
                     </div>
-                    <div data-aos="flip-left" className="projects-img">
+                    <div data-aos="fade-up" className="projects-img">
                         <img src={img} ></img>
                     </div>
                     
                 </div>
                 <div className="projects-item">
-                    <div data-aos="flip-left" className="projects-img has-margin-right">
+                    <div data-aos="fade-up" className="projects-img has-margin-right">
                         <img src={img} ></img>
                     </div>
-                    <div data-aos="fade-left" className="projects-description">
+                    <div data-aos="fade-down" className="projects-description">
                         <h1>Shopping-Cart</h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -61,7 +61,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="projects-item">
-                <div data-aos="fade-left" className="projects-description has-margin-right">
+                <div data-aos="fade-down" className="projects-description has-margin-right">
                         <h1>Shopping-Cart</h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -71,7 +71,7 @@ const Projects = () => {
                         <a href="#" className="cta">View code</a>
                         <a href="#" className="cta">View site</a>
                     </div>
-                    <div data-aos="flip-left" className="projects-img">
+                    <div data-aos="fade-up" className="projects-img">
                         <img src={img} ></img>
                     </div>
                     
