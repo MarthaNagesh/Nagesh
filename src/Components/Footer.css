@@ -14,11 +14,12 @@
     display: flex;
     animation: pulse 2s infinite;
     cursor: pointer;
+    background-color: #221e3f;
 }
-.up i{
-    color: #221e3f;
+i{
     font-size: 2.5rem;
-    margin: auto;
+    padding-left: 12px;
+    padding-top: 12px;
 }
 @keyframes pulse {
     0%{

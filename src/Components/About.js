@@ -1,16 +1,19 @@
-import React, { Component } from 'react';
+import React, { useEffect } from 'react';
 import img from '../images/about.jpg';
 import './about.css';
-
-export default class About extends Component {
-    render() {
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+const About =()=>{
+        useEffect(()=>{
+            Aos.init({duration:2000});
+        }, []);
         return (
             <section className="about" id="about">
                 <div className="container">
-                    <div className="profile-img">
-                        <img src={img} alt=" "/>
+                    <div data-aos="fade-up" className="profile-img">
+                        <img className="about-img" src={img} alt=" "/>
                     </div>
-                    <div className="about-details">
+                    <div data-aos="fade-down" className="about-details">
                         <div className="about-heading">
                             <h1>About</h1>
                             <h5>Myself</h5>
@@ -21,17 +24,18 @@ export default class About extends Component {
                          and CSS."
                         </p>
                         <div className="social-media">
-                        <ul className="nav-list">
-                            <li><a href="#" className="icon-link"><i class="fa fa-github"></i></a></li>
-                            <li><a href="#" className="icon-link"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#" className="icon-link"><i class="fa fa-envelope"></i></a></li>
-                        </ul>
-                    </div>
+                            <ul className="nav-list">
+                                <li><a href="#" className="icon-link"><i class="fa fa-github"></i></a></li>
+                                <li><a href="#" className="icon-link"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#" className="icon-link"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
                     
                 </div>
 
             </section>
         )
-    }
 }
+
+export default About;

@@ -13,6 +13,7 @@
     align-items: center;
     padding: 2rem;
     height: fit-content;
+    
 }
 .skill h1{
     text-transform: uppercase;
@@ -29,12 +30,15 @@
     border-radius: 50%;
 }
 .icon-container i{
-    margin: auto;
+    margin: 2.2rem 1.5rem;
     color: black;
-    font-size: 3rem;
+    font-size: 3.5rem;
     transform: rotate(-45deg);
 }
-
+.icon-container i:hover{
+    color: black;
+    cursor: pointer;
+}
 
 /* reusable css */
 .container{
@@ -79,9 +83,24 @@
 .section-footer{
     text-align: center;
     margin-top: 0;
+    margin-bottom: 22rem;
 }
 .section-footer h5{
     font-size: 2rem;
     font-weight: 300;
     
+}
+
+@media screen and (max-width:768px){
+    .icon-container{
+        width: 7rem;
+        height: 7rem;
+    }
+    .icon-container i{
+        margin: 1rem .6rem;
+        font-size: 2.5rem;
+    }
+    .section-footer h5{
+        font-size: 1.5rem;
+    }
 }

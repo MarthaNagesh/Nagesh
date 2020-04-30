@@ -32,6 +32,7 @@ li{
     font-family: cursive;
     font-size: 3rem;
     padding: 1rem;
+    cursor: pointer;
 }
 .nav-link:hover,
 .nav-link:focus{
@@ -45,7 +46,7 @@ li{
     border-radius: initial;
 }
 .menu-toggler{
-    position: absolute;
+    position: fixed;
     top: 5rem;
     right: 5rem;
     width: 5rem;
@@ -55,7 +56,7 @@ li{
     justify-content: space-between;
     cursor: pointer;
     z-index: 1000;
-    transition: transform .3s ease-out;
+    transition: transform .1s ease-in-out;
 }
 .menu-toggler.open{
     transform: rotate(-45deg);
@@ -107,3 +108,34 @@ li{
     font-size: 3rem;
     color: #eee;
 }
+
+@media screen and (max-width: 768px){
+    .landing-text h1{
+        font-size: 5rem;
+    }
+    .landing-text h5{
+        font-size: 2rem;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .nav-link{
+        font-size: 2rem;
+        padding: 2rem 0;
+    }
+}
+@media screen and (max-width: 600px){
+    .menu-toggler{
+        top: 2rem;
+        right: 2rem;
+    }
+    .landing-text h1{
+        font-size: 5rem;
+    }
+    .landing-text h5{
+        font-size: 2rem;
+    }
+    .nav-link{
+        font-size: 2rem;
+    }
+  }

@@ -45,3 +45,35 @@
     
     
 }
+@media screen and (max-width: 768px){
+    .projects-description h1{
+        font-size: 3rem;
+    }
+    .projects-description p{
+        padding-top: 1rem;
+        font-size: 1.5rem;
+    }
+    .projects-description .cta{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .projects-item{
+        flex-direction: column;
+    
+    }
+    .projects-img img{
+        width:300px;
+    }
+    .projects-img{
+        margin: 2rem 0 .2rem 0;
+        order: 1;
+        
+
+    }
+    .projects-description {
+        font-size: 1.5rem;
+        order: 2;
+    }
+}

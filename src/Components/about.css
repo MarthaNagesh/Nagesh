@@ -17,8 +17,9 @@
     font-size: 4rem;
     font-weight: 300;
 }
-.profile-img{
+.about-img{
     flex: 1;
+    width: 50rem;
     margin-right: 5rem;
 }
 .about-details{
@@ -39,4 +40,46 @@
 }
 .fa-envelope:hover{
     color: #B23121;
+}
+
+@media screen and (max-width: 768px){
+    .about-img{
+        width: 300px;
+        margin: 0 0 7rem 3rem;
+    }
+    .about-details{
+        padding-left: 3rem;
+    }
+    
+    .about-heading h1{
+        margin-top: 2.5rem;
+        font-size: 6rem;
+    }
+    .about-heading h5{
+        font-size: 3rem;
+    }
+    .about-details p{
+        font-size: 1.5rem;
+    }
+    .about-details .nav-list{
+        flex-direction: initial;
+    }
+    .social-media i{
+        font-size: 3rem;
+    }
+    
+    
+}
+
+@media screen and (max-width: 600px){
+    .about .container{
+        flex-direction: column;
+    }
+    .about-img{
+        width:375px;
+        padding: 0 0 7rem 5rem;
+    }
+    .profile-img{
+        margin-right: 7rem;
+    }
 }

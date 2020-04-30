@@ -17,13 +17,13 @@ export default class App extends Component {
     return {Open: !prevState.Open};
   });
  };
- contentCloser = (e)=>{
-   this.setState({Open: false});
- };
+ 
+ 
   render() {
     return (
       <div>
-        <Homepage show={this.state.Open} changeClass={this.contentClickHandler}/>
+        <Homepage show={this.state.Open} 
+          changeClass={this.contentClickHandler}  />
         <About />
         <Skills />
         <Projects />
