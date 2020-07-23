@@ -7,14 +7,14 @@ header{
     height: 100vh;
 }
 .top-nav{
-    width: 35%;
+    width: 40%;
     height:100vh;
     right: -100vh;
     z-index: 50;
     position: fixed;
     background-color: #16162d;
-    /* border-top-left-radius: 200%;
-    border-bottom-left-radius: 200%; */
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
     transition: all 1s cubic-bezier(1,0,0,1);
 }
 .nav-list{
@@ -49,8 +49,8 @@ li{
 .top-nav.open{
     right: 0;
     border-radius: initial;
-    border-top-left-radius: 300%;
-    border-bottom-left-radius: 300%;
+    border-top-left-radius: 200%;
+    border-bottom-left-radius: 200%;
 }
 .menu-toggler{
     position: fixed;
