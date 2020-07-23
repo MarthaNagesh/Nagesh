@@ -24,7 +24,7 @@ const About =()=>{
                          and CSS."
                         </p>
                         <div className="social-media">
-                            <ul className="nav-list">
+                            <ul className="navlist">
                                 <li><a href="#" className="icon-link"><i class="fa fa-github"></i></a></li>
                                 <li><a href="#" className="icon-link"><i class="fa fa-linkedin"></i></a></li>
                                 <li><a href="#" className="icon-link"><i class="fa fa-envelope"></i></a></li>
