@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "347683c125755bd1fd8a5ff3627104f4",
+    "revision": "53ca441e5077136746b740d61d70d097",
     "url": "/nagesh/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nagesh/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "6ee6fe64dcf027384d40",
-    "url": "/nagesh/static/css/main.0841ec8a.chunk.css"
+    "revision": "85cc464fa35ee906e0de",
+    "url": "/nagesh/static/css/main.5bd65ed7.chunk.css"
   },
   {
     "revision": "dab701f530d9eea30da5",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nagesh/static/js/2.a56540cf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6ee6fe64dcf027384d40",
+    "revision": "85cc464fa35ee906e0de",
     "url": "/nagesh/static/js/main.94d88520.chunk.js"
   },
   {
