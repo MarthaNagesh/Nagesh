@@ -25,8 +25,8 @@ const About =()=>{
                         </p>
                         <div className="social-media">
                             <ul className="navlist">
-                                <li><a href="#" className="icon-link"><i class="fa fa-github"></i></a></li>
-                                <li><a href="#" className="icon-link"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a target="_new" href="https://github.com/MarthaNagesh" className="icon-link"><i class="fa fa-github"></i></a></li>
+                                <li><a target="_new" href="https://linkedin.com/in/nageshmartha" className="icon-link"><i class="fa fa-linkedin"></i></a></li>
                                 <li><a href="#" className="icon-link"><i class="fa fa-envelope"></i></a></li>
                             </ul>
                         </div>
