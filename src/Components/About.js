@@ -31,7 +31,7 @@ const About =()=>{
                             </ul>
                         </div>
                     </div>
-                    
+                
                 </div>
 
             </section>
