@@ -46,7 +46,7 @@ const Projects = () => {
                 </div>
                 <div className="projects-item">
                     <div data-aos="fade-up" className="projects-img has-margin-right">
-                        <img src={require("../images/Project-2.png")} ></img>
+                        <img src={require("../images/Project-3.png")} ></img>
                     </div>
                     <div data-aos="fade-down" className="projects-description">
                         <h1>Shopping-Cart</h1>
