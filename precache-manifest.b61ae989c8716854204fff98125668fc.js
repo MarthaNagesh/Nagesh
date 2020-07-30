@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "283b107187710d1aededd2077bac189f",
+    "revision": "adc7cf74469349b5bb82a8935d2510d7",
     "url": "/nagesh/index.html"
   },
   {
-    "revision": "55c2ed74661a4aa94047",
+    "revision": "c043915e519af3d4509d",
     "url": "/nagesh/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "6525a43ca1bac08dcbb9",
+    "revision": "72b6b100e8bbb8822120",
     "url": "/nagesh/static/css/main.4973f8f4.chunk.css"
   },
   {
-    "revision": "55c2ed74661a4aa94047",
-    "url": "/nagesh/static/js/2.0da9a3e3.chunk.js"
+    "revision": "c043915e519af3d4509d",
+    "url": "/nagesh/static/js/2.7e4a78a4.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/nagesh/static/js/2.0da9a3e3.chunk.js.LICENSE.txt"
+    "url": "/nagesh/static/js/2.7e4a78a4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6525a43ca1bac08dcbb9",
-    "url": "/nagesh/static/js/main.63e03023.chunk.js"
+    "revision": "72b6b100e8bbb8822120",
+    "url": "/nagesh/static/js/main.940166bf.chunk.js"
   },
   {
     "revision": "06ab113e793db5ae4805",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cb06a90159205a26b26b5315e65f9c6f",
     "url": "/nagesh/static/media/Project-1.cb06a901.png"
+  },
+  {
+    "revision": "b352ea0980aa23e1754c0046b4d03fe5",
+    "url": "/nagesh/static/media/Project-2.b352ea09.png"
   },
   {
     "revision": "e171df126dc56f7d782eeede81e12ebe",

@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/nagesh/static/css/main.4973f8f4.chunk.css",
-    "main.js": "/nagesh/static/js/main.63e03023.chunk.js",
-    "main.js.map": "/nagesh/static/js/main.63e03023.chunk.js.map",
+    "main.js": "/nagesh/static/js/main.940166bf.chunk.js",
+    "main.js.map": "/nagesh/static/js/main.940166bf.chunk.js.map",
     "runtime-main.js": "/nagesh/static/js/runtime-main.1b9dbcef.js",
     "runtime-main.js.map": "/nagesh/static/js/runtime-main.1b9dbcef.js.map",
     "static/css/2.4707e12a.chunk.css": "/nagesh/static/css/2.4707e12a.chunk.css",
-    "static/js/2.0da9a3e3.chunk.js": "/nagesh/static/js/2.0da9a3e3.chunk.js",
-    "static/js/2.0da9a3e3.chunk.js.map": "/nagesh/static/js/2.0da9a3e3.chunk.js.map",
+    "static/js/2.7e4a78a4.chunk.js": "/nagesh/static/js/2.7e4a78a4.chunk.js",
+    "static/js/2.7e4a78a4.chunk.js.map": "/nagesh/static/js/2.7e4a78a4.chunk.js.map",
     "index.html": "/nagesh/index.html",
-    "precache-manifest.9b6687657bc90178ab6aed16d4391a48.js": "/nagesh/precache-manifest.9b6687657bc90178ab6aed16d4391a48.js",
+    "precache-manifest.b61ae989c8716854204fff98125668fc.js": "/nagesh/precache-manifest.b61ae989c8716854204fff98125668fc.js",
     "service-worker.js": "/nagesh/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/nagesh/static/css/2.4707e12a.chunk.css.map",
     "static/css/main.4973f8f4.chunk.css.map": "/nagesh/static/css/main.4973f8f4.chunk.css.map",
-    "static/js/2.0da9a3e3.chunk.js.LICENSE.txt": "/nagesh/static/js/2.0da9a3e3.chunk.js.LICENSE.txt",
+    "static/js/2.7e4a78a4.chunk.js.LICENSE.txt": "/nagesh/static/js/2.7e4a78a4.chunk.js.LICENSE.txt",
     "static/media/Project-1.png": "/nagesh/static/media/Project-1.cb06a901.png",
+    "static/media/Project-2.png": "/nagesh/static/media/Project-2.b352ea09.png",
     "static/media/Project-4.png": "/nagesh/static/media/Project-4.e171df12.png",
     "static/media/about.jpg": "/nagesh/static/media/about.8a93a8a4.jpg",
     "static/media/index.css": "/nagesh/static/media/background1.d53913c4.jpg"
@@ -22,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.1b9dbcef.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.0da9a3e3.chunk.js",
+    "static/js/2.7e4a78a4.chunk.js",
     "static/css/main.4973f8f4.chunk.css",
-    "static/js/main.63e03023.chunk.js"
+    "static/js/main.940166bf.chunk.js"
   ]
 }
