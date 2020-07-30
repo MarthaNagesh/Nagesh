@@ -46,7 +46,7 @@ const Projects = () => {
                 </div>
                 <div className="projects-item">
                     <div data-aos="fade-up" className="projects-img has-margin-right">
-                        <img src="#" ></img>
+                        <img src={require("../images/Project-2.png")} ></img>
                     </div>
                     <div data-aos="fade-down" className="projects-description">
                         <h1>Shopping-Cart</h1>
@@ -55,8 +55,8 @@ const Projects = () => {
                           when an unknown printer took a galley of type and scrambled it to make a type
                            specimen book.
                         </p>
-                        <a href="#" className="cta">View code</a>
-                        <a href="#" className="cta">View site</a>
+                        <a target="_new" href="https://github.com/MarthaNagesh/Burger" className="cta">View code</a>
+                        <a target="_new" href="https://marthanagesh.github.io/Burger/" className="cta">View site</a>
                     </div>
                 </div>
                 <div className="projects-item">
